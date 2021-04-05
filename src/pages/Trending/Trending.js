@@ -1,8 +1,9 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import SingleContent from "../../components/SingleContent/SingleContent";
-import "./Trending.css"
-require('dotenv').config()
+import "./Trending.css";
+import CustomPagination from "../../components/Pagination/CustomPagination";
+require("dotenv").config();
 
 const Trending = () => {
   const [content, setContent] = useState([]);
@@ -35,6 +36,7 @@ const Trending = () => {
             />
           ))}
       </div>
+      <CustomPagination />
     </div>
   );
 };
