@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import SingleContent from "../../components/SingleContent/SingleContent";
 import "./Trending.css"
+require('dotenv').config()
 
 const Trending = () => {
   const [content, setContent] = useState([]);
