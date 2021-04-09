@@ -1,5 +1,3 @@
-const { default: Genres } = require("../components/Genres");
-
 const useGenre = (selectedGenres) => {
   if (selectedGenres.length < 1) return "";
 
