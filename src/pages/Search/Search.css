@@ -1,0 +1,12 @@
+.search {
+  display: flex;
+  margin: 15px 0;
+}
+
+Tabs {
+  padding-bottom: 5 px;
+}
+
+Tab {
+  width: 50%;
+}
